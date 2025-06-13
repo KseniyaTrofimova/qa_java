@@ -51,6 +51,6 @@ public class LionTest {
     public void testEatMeat() throws Exception {
         Lion lion = new Lion("Самец", new Feline());
         List<String> expectedFood = List.of("Животные", "Птицы", "Рыба");
-        assertEquals(expectedFood, lion.eatMeat());
+        assertEquals(expectedFood, lion.getFood());
     }
 }
